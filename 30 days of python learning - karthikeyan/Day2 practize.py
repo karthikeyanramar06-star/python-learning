@@ -52,3 +52,11 @@ exp=num1^num2
 print(exp)
 floor_division=num1//num2
 print(floor_division)
+first_name=input("What is your first name?")
+print(first_name)
+last_name=input("what is your last name?")
+print(last_name)
+age=input("what is your age?")
+print(age)
+country=input("what is your country name?")
+print(country)
