@@ -34,7 +34,8 @@ b = -2
 Slope = m
 print("Slope of the line:",Slope)
 #take x as 0 (if you want to find y set x as 0)
-y_intercept = m*x+b
+x = 0
+y_intercept = m * x + b
 print("Y intercept:",y_intercept)
 #take y as 0 (if you want to find x set y as 0)
 #0=m*x+b
