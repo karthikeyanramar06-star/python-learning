@@ -27,3 +27,18 @@ area_of_circle=pi*r**2
 print("Area of circle:",area_of_circle)
 circumference_of_circle=2*pi*r
 print("Circumference of circle:",circumference_of_circle)
+# slope of a line(y=mx+b)
+m = 2
+b = -2
+
+Slope = m
+print("Slope of the line:",Slope)
+#take x as 0 (if you want to find y set x as 0)
+y_intercept = m*x+b
+print("Y intercept:",y_intercept)
+#take y as 0 (if you want to find x set y as 0)
+#0=m*x+b
+#-b=m*x
+#x=-b/m
+x_intercept = -b/m
+print("X intercept:",x_intercept)
