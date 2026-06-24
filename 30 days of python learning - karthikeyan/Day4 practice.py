@@ -41,3 +41,20 @@ Hours = int(input("Enter your hours of work: ",))
 Rate_per_hour = int(input("Enter your rate per hour: ",))
 Your_weekly_earning = Hours*Rate_per_hour
 print(Your_weekly_earning )
+
+#living seconds calculator(no of days lived)
+no_of_years_lived = int(input("Enter the no of years you lived: "))
+year = 31536000
+total_seconds_lived = no_of_years_lived * year
+print("Total no of seconds lived: ", total_seconds_lived)
+
+#Display the following numbers 1 1 1 1 1
+#2 1 2 4 8
+#3 1 3 9 27
+#4 1 4 16 64
+#5 1 5 25 125
+print (1,1,1,1,1)
+print (2,1,2,4,8)
+print (3,1,3,9 ,27)
+print (4,1,4,16,64)
+print (5,1,5,25,125)
