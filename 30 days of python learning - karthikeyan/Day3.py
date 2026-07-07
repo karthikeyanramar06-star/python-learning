@@ -39,7 +39,6 @@ mass=20
 volume=40
 density_of_a_liquid=mass/volume
 print("Density of an volume:",density_of_a_liquid)
-       
 #check if jargon is in the sentence
 e = "I hope this course is not full of jargon"
 if "jargon" in e:
