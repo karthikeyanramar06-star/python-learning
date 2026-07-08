@@ -1,60 +1,40 @@
-#falsy comparison statement
-a =  str("python")
-b = str("dragon")
-print(len,a)
-print(len,b)
-print(a == b ) 
+#concatination
+word_1 = "Thirty "
+word_2 = "Days "
+word_3 = "of "
+word_4 = "Python "
 
+full_sentence = word_1 + word_2 + word_3 + word_4
+print(full_sentence)
 
-#charachter finder  
-c = "python"
-d = "dragon"
-if "on" in c and "on" in d:
-     print(True)
+#concatination 2
+first_word = "coding"
+second_word = " for"
+third_word = " all"
 
-#check if jargon is in the sentence
-e = "I hope this course is not full of jargon"
-if "jaogon" in e:
-     print(True)
+entire_sentence = first_word + second_word + third_word 
+print(entire_sentence)
 
-# type '10' = type 10
-t ='10'
-u = 10
-print(type(t))
-print(type(u))
-if (type(t) == type(u)):
-     print(True)
-else:
-     print(False)
-
-#Check if int('9.8') is equal to 10
-v = int(float('9.8'))
-n = 10
-if v == n:
-     print(True)
-else:
-     print(False)\
-     
-#salarycalculator
-Name = input("Enter your name: ",)
-Hours = int(input("Enter your hours of work: ",))
-Rate_per_hour = int(input("Enter your rate per hour: ",))
-Your_weekly_earning = Hours*Rate_per_hour
-print(Your_weekly_earning )
-
-#living seconds calculator(no of days lived)
-no_of_years_lived = int(input("Enter the no of years you lived: "))
-year = 31536000
-total_seconds_lived = no_of_years_lived * year
-print("Total no of seconds lived: ", total_seconds_lived)
-
-#Display the following numbers 1 1 1 1 1
-#2 1 2 4 8
-#3 1 3 9 27
-#4 1 4 16 64
-#5 1 5 25 125
-print (1,1,1,1,1)
-print (2,1,2,4,8)
-print (3,1,3,9 ,27)
-print (4,1,4,16,64)
-print (5,1,5,25,125)
+#assign
+company = "coding for all"
+print(company)
+print(len(company))
+print(company.upper())
+print(company.lower())
+print(company.capitalize())
+print(company.swapcase())
+print(company.title())
+print(company[7:])
+print(company.find("coding"))
+print(company.replace("coding" , "Python"))
+company_2 = "Python For Everyone"
+print(company_2.replace("Everyone" , "all" ))
+print(company.split(" "))
+company_3 = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
+print(company_3.split(","))
+print(company[0])
+print(len(company) -1)
+print(company[10])
+print(company_2[0] + company_2[7] + company_2[11])
+print(company[0]+company[7]+company[11])
+print(company.index("c"))
