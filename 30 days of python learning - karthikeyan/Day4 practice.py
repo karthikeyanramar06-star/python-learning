@@ -39,3 +39,56 @@ print(company_2[0] + company_2[7] + company_2[11])
 print(company[0]+company[7]+company[11])
 print(company.index("c"))
 print(company.index("f"))
+company_4 = "Coding For All People"
+print(company_4.rfind("l"))
+sentence_1 = "You cannot end a sentence with because because because is a conjunction"
+print(sentence_1.find("because"))
+print(sentence_1.rindex("because"))
+#slicimg
+start = sentence_1.find("because")
+print(start)
+length = len("because,because,because")
+end = start + length
+print(end)
+print(sentence_1[start:end])
+print(sentence_1[31:53])
+#starswith
+if company.startswith("coding"):
+    print("yes")
+else : 
+    print("no")
+#endswith
+if company.endswith("coding"):
+    print("yes")
+else : 
+    print("no")
+
+#remove spaces
+company_5 = "  Coding For All      "
+print(company_5.strip(" "))
+print("30DaysOfPython".isidentifier())
+print("thirty_days_of_python".isidentifier())
+world_1 = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+print(" # ".join(world_1))
+print('''I am enjoying this challenge.\nI just wonder what is next.''')
+print("Name\tAge\tCountry\tCity\nAsabeneh\t250\tFinland\tHelsinki")
+radius = 10
+pi = 3.14
+area = pi * radius ** 2
+formated_string = "The area of a circle with radius %d is %.2f meters square." %(radius,area)
+print(formated_string)
+name = "karthi"
+age = 20
+mark = 99.9
+print("my name is %s ,im %d years old,i scored %.2f"%(name,age,mark))
+#string format
+a = 8
+b = 6
+
+print('{} + {} = {}'.format(a,b,a + b ))
+print('{} + {} = {}'.format(a,b,a - b))
+print('{}*{}={}'.format(a,b,a*b))
+print('{}/{}={}'.format(a,b,a%b))
+print('{}%{}={}'.format(a,b,a%b))
+print('{}//{}={}'.format(a,b,a//b))
+print('{}**{}={}'.format(a,b,a**b))
