@@ -44,4 +44,29 @@ print("Course\tDuration\tFee\nPython\t30 Days \tFree\n\nLet's Learn Python!")
 sentence = "You cannot end a sentence with because because because is a conjunction"
 start=sentence.find("because")
 end= start + len("because because because")
-print(sentence[start:end])
+print(sentence[start:end])  
+
+x = int(input("What is x = "))
+y = int(input("what is y = "))
+if (x*y) == 110 :
+    print("x is assigned value")
+else: 
+    print("x is not assigned value")
+
+#attendence cal
+attendence = int(input("what is your attendence percentage: "))
+if  75 <= attendence <= 100:
+    print("Congragulations you are eligeble for the exam")
+elif attendence <= 74:
+    (print("your fine is 15000"))
+else:
+    print("invalid percentage")
+
+name = input("What's your name? ")
+
+if name == "Harry" or name == "Hermione" or name == "Ron":
+    print("Gryffindor")
+elif name == "Draco":
+    print("Slytherin")
+else:
+    print ("Who?")
